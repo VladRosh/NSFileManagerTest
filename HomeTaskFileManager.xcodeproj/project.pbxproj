@@ -13,6 +13,9 @@
 		F5551C941E3FBCDA00AF73FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5551C921E3FBCDA00AF73FD /* Main.storyboard */; };
 		F5551C961E3FBCDA00AF73FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5551C951E3FBCDA00AF73FD /* Assets.xcassets */; };
 		F5551C991E3FBCDA00AF73FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5551C971E3FBCDA00AF73FD /* LaunchScreen.storyboard */; };
+		F5551CA11E3FBE0200AF73FD /* Task in Resources */ = {isa = PBXBuildFile; fileRef = F5551CA01E3FBE0200AF73FD /* Task */; };
+		F597E5771E411BA7007CADCA /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = F597E5751E411BA7007CADCA /* folder.png */; };
+		F597E5781E411BA7007CADCA /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = F597E5761E411BA7007CADCA /* file.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		F5551C951E3FBCDA00AF73FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5551C981E3FBCDA00AF73FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5551C9A1E3FBCDA00AF73FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5551CA01E3FBE0200AF73FD /* Task */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Task; sourceTree = "<group>"; };
+		F597E5751E411BA7007CADCA /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		F597E5761E411BA7007CADCA /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,12 @@
 		F5551C881E3FBCDA00AF73FD /* HomeTaskFileManager */ = {
 			isa = PBXGroup;
 			children = (
+				F5551CA01E3FBE0200AF73FD /* Task */,
 				F5551C8C1E3FBCDA00AF73FD /* AppDelegate.h */,
 				F5551C8D1E3FBCDA00AF73FD /* AppDelegate.m */,
 				F5551C8F1E3FBCDA00AF73FD /* ViewController.h */,
 				F5551C901E3FBCDA00AF73FD /* ViewController.m */,
+				F597E5741E411B93007CADCA /* images */,
 				F5551C921E3FBCDA00AF73FD /* Main.storyboard */,
 				F5551C951E3FBCDA00AF73FD /* Assets.xcassets */,
 				F5551C971E3FBCDA00AF73FD /* LaunchScreen.storyboard */,
@@ -77,6 +85,15 @@
 				F5551C8A1E3FBCDA00AF73FD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F597E5741E411B93007CADCA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F597E5751E411BA7007CADCA /* folder.png */,
+				F597E5761E411BA7007CADCA /* file.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +157,9 @@
 				F5551C991E3FBCDA00AF73FD /* LaunchScreen.storyboard in Resources */,
 				F5551C961E3FBCDA00AF73FD /* Assets.xcassets in Resources */,
 				F5551C941E3FBCDA00AF73FD /* Main.storyboard in Resources */,
+				F5551CA11E3FBE0200AF73FD /* Task in Resources */,
+				F597E5771E411BA7007CADCA /* folder.png in Resources */,
+				F597E5781E411BA7007CADCA /* file.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +329,7 @@
 				F5551C9F1E3FBCDA00AF73FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (id)initWithFolderPath:(NSString*)path;
 
 @end
 
